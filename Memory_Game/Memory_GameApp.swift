@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct Memory_GameApp: App {
+    
+    @Environment(\.scenePhase) var scenePhase
+    
+    @StateObject private var treasures = Treasures()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(treasures)
+        }
+        .onChange(of: scenePhase) { phase in
+            switch phase {
+            case .background:
+                treasures.saveObjects()
+            default:
+                break
+            }
         }
     }
 }

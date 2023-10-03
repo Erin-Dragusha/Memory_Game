@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Treasure: Codable, Hashable, Identifiable {
+    var id = UUID()
+    var name: String
+    var groupSize: Int
+    var numGroups: Int
+}

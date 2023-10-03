@@ -11,6 +11,13 @@
 		E841E0422ACC179F00181C68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841E0412ACC179F00181C68 /* ContentView.swift */; };
 		E841E0442ACC17A000181C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E841E0432ACC17A000181C68 /* Assets.xcassets */; };
 		E841E0472ACC17A000181C68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E841E0462ACC17A000181C68 /* Preview Assets.xcassets */; };
+		E841E04E2ACC181E00181C68 /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841E04D2ACC181E00181C68 /* Treasure.swift */; };
+		E841E0502ACC183F00181C68 /* Treasures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841E04F2ACC183F00181C68 /* Treasures.swift */; };
+		E841E0522ACC185700181C68 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841E0512ACC185700181C68 /* Tile.swift */; };
+		E841E0542ACC186800181C68 /* Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841E0532ACC186800181C68 /* Tiles.swift */; };
+		E841E0562ACC189800181C68 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841E0552ACC189800181C68 /* StartView.swift */; };
+		E841E0582ACC18C500181C68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841E0572ACC18C500181C68 /* SettingsView.swift */; };
+		E841E05A2ACC194100181C68 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841E0592ACC194100181C68 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		E841E0412ACC179F00181C68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E841E0432ACC17A000181C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E841E0462ACC17A000181C68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E841E04D2ACC181E00181C68 /* Treasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
+		E841E04F2ACC183F00181C68 /* Treasures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treasures.swift; sourceTree = "<group>"; };
+		E841E0512ACC185700181C68 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		E841E0532ACC186800181C68 /* Tiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiles.swift; sourceTree = "<group>"; };
+		E841E0552ACC189800181C68 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		E841E0572ACC18C500181C68 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E841E0592ACC194100181C68 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,13 @@
 		E841E03E2ACC179F00181C68 /* Memory_Game */ = {
 			isa = PBXGroup;
 			children = (
+				E841E04D2ACC181E00181C68 /* Treasure.swift */,
+				E841E04F2ACC183F00181C68 /* Treasures.swift */,
+				E841E0512ACC185700181C68 /* Tile.swift */,
+				E841E0532ACC186800181C68 /* Tiles.swift */,
+				E841E0552ACC189800181C68 /* StartView.swift */,
+				E841E0572ACC18C500181C68 /* SettingsView.swift */,
+				E841E0592ACC194100181C68 /* GameView.swift */,
 				E841E03F2ACC179F00181C68 /* Memory_GameApp.swift */,
 				E841E0412ACC179F00181C68 /* ContentView.swift */,
 				E841E0432ACC17A000181C68 /* Assets.xcassets */,
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E841E0502ACC183F00181C68 /* Treasures.swift in Sources */,
+				E841E0582ACC18C500181C68 /* SettingsView.swift in Sources */,
 				E841E0422ACC179F00181C68 /* ContentView.swift in Sources */,
+				E841E0522ACC185700181C68 /* Tile.swift in Sources */,
+				E841E05A2ACC194100181C68 /* GameView.swift in Sources */,
 				E841E0402ACC179F00181C68 /* Memory_GameApp.swift in Sources */,
+				E841E04E2ACC181E00181C68 /* Treasure.swift in Sources */,
+				E841E0542ACC186800181C68 /* Tiles.swift in Sources */,
+				E841E0562ACC189800181C68 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

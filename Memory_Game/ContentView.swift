@@ -7,18 +7,43 @@
 
 import SwiftUI
 
+enum TabSelection: Int {
+    case Start
+    case Settings
+    case Game
+}
+
 struct ContentView: View {
+    
+    @State private var tabSelection: TabSelection = .Start
+    
+    @EnvironmentObject var treasures: Treasures
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            TabView(selection: $tabSelection) {
+                StartView()
+                    .tabItem {
+                        Text("Start")
+                    }
+                    .tag(TabSelection.Start)
+                
+                GameView()
+                    .tabItem {
+                        Text("Game")
+                    }
+                    .tag(TabSelection.Game)
+                
+                SettingsView()
+                    .tabItem {
+                        Text("Settings")
+                    }
+                    .tag(TabSelection.Settings)
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView().environmentObject(Treasures())
 }
